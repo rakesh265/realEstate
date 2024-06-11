@@ -1,0 +1,36 @@
+.no-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+  }
+  
+  .no-page-title {
+    font-size: 72px;
+    margin: 0;
+  }
+  
+  .no-page-message {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .no-page-link {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .no-page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
